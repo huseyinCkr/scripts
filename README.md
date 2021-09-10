@@ -1,5 +1,6 @@
 # scripts
-texttospeech googleapis lifelike speech synthesis
+
+[1.] speechgoogle.sh (texttospeech googleapis lifelike speech synthesis)
 
 STEP 1:
 Get X-Goog-Api-Key from https://console.cloud.google.com
@@ -15,3 +16,4 @@ get audioContent in synthesize-text.txt and save it into a file example content.
 
 STEP 5:
 base64 content.txt -d > turkceses.mp3
+
